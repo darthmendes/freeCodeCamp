@@ -1,0 +1,52 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <main id='main'>
+    <head>
+      <meat charset='utf-8'>
+      <title>Tony Stark Tribute</title>
+      <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+      <h1 id='title'>Tony Stark</h1>
+      <div id='img-div'>
+        <img id='image' src='https://upload.wikimedia.org/wikipedia/en/f/f2/Robert_Downey_Jr._as_Tony_Stark_in_Avengers_Infinity_War.jpg'>
+        <figcaption id='img-caption' class='center'>Tony Stark was the best avenger ever.</figcaption>
+      </div>
+      <div class='divider'></div>
+      <p id='tribute-info'>This is a description of the person. He is just cool and now im just clicking on several keyboard keys to make up for the lots of space that i have and i could actually just be writing things.</p>
+      
+      <div class='divider'></div>
+      <p>But i feel like this is a way better way to make up for the lots of space available</p>
+      <div class='divider'></div>
+    </body>
+    <a target='_blank' href='https://en.wikipedia.org/wiki/Tony_Stark_(Marvel_Cinematic_Universe)' id='tribute-link'>This is a link</a>
+  </main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin:0 auto;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.divider {
+  padding: 20px 0 0 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+
+** end of undefined **
+

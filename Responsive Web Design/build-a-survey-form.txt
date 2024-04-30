@@ -1,0 +1,111 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Survey Form</title>
+    <link rel='stylesheet' href='styles.css' />
+  </head>
+  <body>
+    <h1 id='title'>Page Title</h1>
+    <p id='description'>Short Explanation</p>
+    
+    <form id='survey-form'>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <label for='name' id='name-label'>
+          Enter your name: <input id='name' name='name' type='text'required placeholder='John Doe'/>
+        </label>
+        
+        <label for='email' id='email-label'>
+          Enter your email: <input id='email' type='email' name='email' placeholder='johndoe@email.com' required/>
+        </label>
+        
+        <label for='number' id='number-label'>
+          Enter a Number: <input id='number' type='number' min='0' max='100' placeholder='50' required/>
+        </label>
+
+        <label for='dropdown'>
+          Choose an Option: 
+          <select type='dropdown' id='dropdown'>
+            <option>option 1</option>
+            <option>option 2</option>
+          </select>
+        </label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Radio Buttons</legend>
+        <label for='radio1'><input type='radio' name='radio-buttons' id='radio1' value='radio1' class='inline'> Radio Button 1</label>
+        <label for='radio2'><input type='radio' name='radio-buttons' id='radio2' value='radio2' class='inline'> Radio Button 2</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Checkboxes</legend>
+        <label for='check1'><input type='checkbox' value='check1' class='inline'> Check 1</label>
+        <label for='check2'><input type='checkbox' value='check2' class='inline'> Check 2</label>
+        <label for='check3'><input type='checkbox' value='check3' class='inline'> Check 3</label>
+      </fieldset>
+
+      <textarea id='textarea' placeholder='Write Here...'></textarea>
+      
+      <input type='submit' id='submit' />
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(133, 108, 75);
+  color: white;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+
+fieldset {
+  padding: 2rem 1rem;
+  border-bottom: 1 solid #000000;
+  background-color: #4c4c4e;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+** end of undefined **
+
